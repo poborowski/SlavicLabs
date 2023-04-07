@@ -1,0 +1,52 @@
+2023-03-08T13:18:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php:14
+Stack trace:
+#0 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(785): require()
+#1 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(718): load_template('E:\\xampp\\htdocs...', false, Array)
+#2 E:\xampp\htdocs\SlavicLabs\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\single.php(27): get_template_part('loop-templates/...', 'single')
+#4 E:\xampp\htdocs\SlavicLabs\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\SlavicLabs\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\SlavicLabs\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php on line 14
+
+2023-03-08T13:19:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php:14
+Stack trace:
+#0 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(785): require()
+#1 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(718): load_template('E:\\xampp\\htdocs...', false, Array)
+#2 E:\xampp\htdocs\SlavicLabs\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\single.php(27): get_template_part('loop-templates/...', 'single')
+#4 E:\xampp\htdocs\SlavicLabs\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\SlavicLabs\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\SlavicLabs\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php on line 14
+
+2023-03-08T13:20:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php:14
+Stack trace:
+#0 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(785): require()
+#1 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(718): load_template('E:\\xampp\\htdocs...', false, Array)
+#2 E:\xampp\htdocs\SlavicLabs\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\single.php(27): get_template_part('loop-templates/...', 'single')
+#4 E:\xampp\htdocs\SlavicLabs\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\SlavicLabs\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\SlavicLabs\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php on line 14
+
+2023-03-08T13:21:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php:14
+Stack trace:
+#0 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(785): require()
+#1 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(718): load_template('E:\\xampp\\htdocs...', false, Array)
+#2 E:\xampp\htdocs\SlavicLabs\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\single.php(27): get_template_part('loop-templates/...', 'single')
+#4 E:\xampp\htdocs\SlavicLabs\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\SlavicLabs\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\SlavicLabs\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\loop-templates\content-single.php on line 14
+
+2023-03-08T15:54:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\SlavicLabs\wp-includes\class-wp-hook.php on line 307
+
+2023-03-08T15:56:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\SlavicLabs\wp-includes\plugin.php on line 179
+

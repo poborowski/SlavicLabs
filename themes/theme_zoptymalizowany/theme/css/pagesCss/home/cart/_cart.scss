@@ -1,0 +1,253 @@
+.cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-left: 1px solid gray;
+  padding: 0px;
+  transition: right 0.5s ease;
+
+  z-index: 99999999;
+  .checkoutButton {
+    padding: 12px 26px;
+    color: white;
+    width: 100%;
+    height: 51px;
+
+    background: #1c1c1c;
+    border-radius: 2px;
+  }
+  .product-thumbnail {
+    img {
+      max-width: 77px;
+      max-height: 77px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .product-thumbnail {
+    max-width: 108px;
+    width: 100%;
+    height: 108px;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    margin-right: 20px;
+    padding: 14px;
+  }
+  .cartDetailsBox {
+    display: flex;
+  }
+  .cartDetails {
+    display: inline-block;
+    width: 100%;
+    p {
+      width: 100%;
+      display: block;
+    }
+    .product-price {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #1c1c1c;
+    }
+  }
+  .cartCountRemoveBox {
+    display: flex;
+    p {
+      width: 50%;
+
+      a {
+        text-align: right;
+        display: block;
+      }
+    }
+  }
+  .product-name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c1c1c;
+    mix-blend-mode: normal;
+    margin: 0px;
+    span {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: right;
+      color: #808080;
+    }
+  }
+  .product-remove {
+    a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration-line: underline;
+      color: #1c1c1c;
+    }
+  }
+  .cartOption {
+    margin-top: 32px;
+  }
+  .cartItems {
+    position: relative;
+    padding: 0px 24px;
+  }
+  .cartGoToCheckout {
+    padding: 24px;
+
+    background: #f9f7f7;
+    img {
+      margin-right: 12px;
+    }
+    .cartGoToCheckoutBox {
+      display: flex;
+      p {
+        width: 50%;
+      }
+      .cartGoToCheckoutDelivery {
+        text-align: right;
+      }
+    }
+  }
+  .cartAmout {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #1c1c1c;
+    text-align: center;
+    border-bottom: 1px solid #f9f7f7;
+    padding: 30px 0px;
+    margin-bottom: 0px;
+  }
+  .cartCloseBtn {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    right: 20px;
+    top: 23px;
+  }
+  .cartCloseBtn:hover {
+    opacity: 0.8;
+  }
+  .oneCart {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 24px;
+    color: #1c1c1c;
+  }
+  .cartSubscription {
+    background: #265a94;
+    height: 56px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+      /* identical to box height, or 17px */
+      margin: 0px;
+      color: #ffffff;
+      b {
+        text-transform: uppercase;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        margin: 0px;
+        color: #ffffff;
+      }
+    }
+    input {
+      width: 24px;
+      height: 24px;
+      margin-left: 24px;
+      margin-right: 12px;
+    }
+  }
+  .cartPackedBox {
+    p {
+      width: 100%;
+    }
+    span {
+      width: 100%;
+    }
+  }
+  .cartPacked {
+    height: 56px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    input {
+      width: 24px;
+      height: 24px;
+      margin-left: 24px;
+      margin-right: 12px;
+    }
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 120%;
+      width: 100%;
+      color: #808080;
+      margin: 0px !important;
+      margin: 0px;
+    }
+    span {
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: right;
+      color: #808080;
+    }
+  }
+  .cartGoToCheckout {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 120%;
+      display: inline-block;
+      color: #1c1c1c;
+    }
+  }
+}
+
+.cart.show {
+  right: 0;
+}

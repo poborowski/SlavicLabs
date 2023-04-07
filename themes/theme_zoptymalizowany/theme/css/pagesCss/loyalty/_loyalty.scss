@@ -1,0 +1,434 @@
+.loyaltyHero {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: #035495;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 530px;
+  }
+  .loyaltyHeroHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+  }
+  .loyaltyHeroBox {
+    padding-top: 150px;
+  }
+  .loyaltyHeroText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .container {
+    max-width: 1320px !important;
+    margin: 0 auto;
+  }
+  .loyaltyHeroDarkBtn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 16px 26px;
+    max-width: 299px;
+    max-height: 51px;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+  }
+  .loyaltyHeroDarkBtn:hover,
+  .loyaltyHeroLightBtn:hover {
+    opacity: 0.8;
+  }
+  .loyaltyHeroLightBtn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c1c1c;
+    text-decoration: none;
+    padding: 16px 26px;
+    max-width: 299px;
+    max-height: 51px;
+    width: 100%;
+    height: 100%;
+    background: #fdfcfc;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+  }
+}
+.containerLoyalty {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.loyaltyHowWork {
+  margin: 60px 0px;
+  text-align: center;
+  .loyaltyHowWorkBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1c1c1c;
+    mix-blend-mode: normal;
+    margin-bottom: 50px;
+  }
+  .loyaltyHowWorkHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin: 24px 0px;
+  }
+  .loyaltyHowWorkText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #808080;
+  }
+}
+
+.loyaltyGetPoints {
+  margin: 60px 0px;
+  text-align: center;
+  .loyaltyGetPointsBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1c1c1c;
+    mix-blend-mode: normal;
+    margin-bottom: 50px;
+  }
+  .loyaltyGetPointsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .loyaltyGetPointsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #1c1c1c;
+  }
+  .loyaltyGetPointsBox {
+  }
+  .loyaltyGetBox {
+    padding: 38px 42px;
+    background: #f9f7f7;
+    border-radius: 4px;
+    margin: 5px;
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+  }
+}
+.loyaltyLvls {
+  margin: 60px 0px;
+  text-align: center;
+  .loyaltyLvlsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin: 24px 0px;
+  }
+  .loyaltyLvlsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #1c1c1c;
+  }
+  .loyaltyLvlsBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 50px;
+    color: #1c1c1c;
+  }
+  .loyaltyLvlsBox {
+    min-height: 484px;
+    padding: 38px 42px;
+    gap: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(28, 28, 28, 0.25);
+    border-radius: 4px;
+  }
+  ul {
+    border-top: 1px solid #d9d9d9;
+    max-width: 325px;
+    margin: 0 auto;
+    padding: 24px 0px;
+    li {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 120%;
+      color: #1c1c1c;
+      margin: 8px 0px;
+      text-align: left;
+    }
+    li {
+      display: flex;
+    }
+    li:before {
+      display: block;
+      flex-shrink: 0;
+      width: 20px;
+      height: 15px;
+      margin-right: 10px;
+
+      background: url("../imgs/checked.svg") no-repeat left center;
+      background-size: contain;
+
+      content: "";
+    }
+  }
+}
+.usePoints {
+  margin: 60px 0px;
+  text-align: center;
+  .usePointsBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1c1c1c;
+  }
+  .usePointsBigText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #1c1c1c;
+    max-width: 922px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .usePointsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin: 12px 0px;
+  }
+  .usePointsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #1c1c1c;
+    margin: 0px;
+  }
+  .useBox {
+    margin: 5px;
+  }
+  .useBox {
+    padding: 38px 42px;
+    background: #f9f7f7;
+    border-radius: 4px;
+  }
+  .changePointsBtn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #e4e4e4;
+    padding: 16px 26px;
+    display: block;
+    width: 299px;
+    height: 51px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background: #1c1c1c;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  .changePointsBtn:hover {
+    color: white;
+    opacity: 0.8;
+  }
+  .row {
+    justify-content: center;
+  }
+}
+.recommendFriends {
+  background: #ffba0d;
+  div {
+    padding: 0px;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .recommendFriendsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+  }
+  .recommendFriendsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  .recommendFriendsBiggerText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+
+    color: #ffffff;
+  }
+  .recommendFriendsBoxText {
+    padding: 80px;
+
+    position: relative;
+    img {
+      max-width: 60px;
+      max-height: 60px;
+    }
+  }
+  .recommendFriendsBoxText::before {
+    font-family: "Alegreya Sans SC";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.22em;
+    content: "SLAVIC LABS – WIĘCEJ NIŻ NAUKA.";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+  }
+  input {
+    padding: 8px 8px 8px 16px;
+
+    max-width: 539px;
+    max-height: 51px;
+    background: #ffffff;
+    width: 100%;
+    border: 1px solid #1c1c1c;
+    border-radius: 2px;
+  }
+  button {
+    background: #1c1c1c;
+    border-radius: 2px;
+    padding: 16px 26px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto;
+    max-width: 298px;
+    max-height: 51px;
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    color: #e4e4e4;
+    border: 0px;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerLoyalty {
+    padding: 10px;
+  }
+  .loyaltyHero .loyaltyHeroBox {
+    padding-top: 0px;
+  }
+  .loyaltyHeroBox {
+    p {
+      text-align: center;
+    }
+    .loyaltyHeroDarkBtn {
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .loyaltyHeroLightBtn {
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+  .loyaltyLvls ul li {
+    text-align: center;
+  }
+  .recommendFriends .recommendFriendsBoxText {
+    padding: 25px;
+  }
+}

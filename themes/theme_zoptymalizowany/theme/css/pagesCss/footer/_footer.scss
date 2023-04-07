@@ -1,0 +1,62 @@
+.home #wrapper-footer {
+  border-top: 10px solid #ffffff;
+}
+
+#wrapper-footer {
+  background: #1c1c1c;
+
+  .underfooter {
+    border-top: 1px solid #ffffff1c;
+  }
+  .container {
+    max-width: 1320px !important;
+  }
+  .underfooter {
+    margin-top: 60px;
+    padding-top: 24px;
+  }
+  p {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+  .underfooterup {
+    font-family: "Alegreya Sans SC";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  .underfooterbottom {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.22em;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    p {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}

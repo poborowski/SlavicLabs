@@ -1,0 +1,22 @@
+2023-03-30T15:19:07+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\page-wraps\shop\category-content.php on line 14
+
+2023-03-30T16:22:37+00:00 CRITICAL Uncaught Exception: Invalid product. in E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:167
+Stack trace:
+#0 E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(138): WC_Data_Store->read(Object(WC_Product))
+#2 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\woocommerce\single-product\price.php(50): WC_Product->__construct(1234)
+#3 E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1647): wc_get_template('single-product/...')
+#5 E:\xampp\htdocs\SlavicLabs\wp-includes\class-wp-hook.php(308): woocommerce_template_single_price('')
+#6 E:\xampp\htdocs\SlavicLabs\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 E:\xampp\htdocs\SlavicLabs\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#9 E:\xampp\htdocs\SlavicLabs\wp-includes\template.php(785): require('E:\\xampp\\htdocs...')
+#10 E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('E:\\xampp\\htdocs...', false)
+#11 E:\xampp\htdocs\SlavicLabs\wp-content\themes\theme_zoptymalizowany\theme\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#12 E:\xampp\htdocs\SlavicLabs\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#13 E:\xampp\htdocs\SlavicLabs\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#14 E:\xampp\htdocs\SlavicLabs\index.php(17): require('E:\\xampp\\htdocs...')
+#15 {main}
+  thrown in E:\xampp\htdocs\SlavicLabs\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 167
+

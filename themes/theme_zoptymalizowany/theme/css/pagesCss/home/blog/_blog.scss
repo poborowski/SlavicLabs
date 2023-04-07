@@ -1,0 +1,106 @@
+.home {
+  .blog {
+    background: #1c1c1c;
+    padding: 60px 0px;
+    img {
+      max-width: 60px;
+      margin: 0 auto;
+    }
+    a {
+      text-decoration: none;
+    }
+    .card {
+      background-color: unset;
+      box-shadow: none;
+      border: unset;
+      color: white;
+      .card-img-top {
+        width: 100%;
+
+        max-width: 442px;
+        max-height: 294px;
+      }
+      p {
+        color: white;
+        text-decoration: none;
+      }
+      button {
+        background: #1c1c1c;
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px 26px;
+        color: #e4e4e4;
+      }
+    }
+    .container {
+      max-width: 1320px !important;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+    .card-title {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+      color: #ffffff;
+      margin-bottom: 22px;
+    }
+    .card-subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+    .bigtext {
+      font-weight: 700;
+      font-size: 61px;
+      line-height: 74px;
+    }
+    button {
+      margin-top: 10px;
+    }
+    .showmore {
+      background: #1c1c1c;
+      border: 1px solid #ffffff;
+      border-radius: 2px;
+      color: #e4e4e4;
+      padding: 16px 26px;
+      max-width: 155px;
+      margin: 0 auto;
+      margin-top: 40px;
+      text-decoration: none;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .button:hover {
+      opacity: 0.8;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .blog {
+    p {
+      text-align: center;
+    }
+    button {
+      margin: 0 auto;
+      display: block;
+    }
+    .card-subtitle {
+      margin-top: 10px;
+    }
+    .card-img-top {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

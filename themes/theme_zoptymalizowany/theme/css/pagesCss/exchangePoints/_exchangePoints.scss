@@ -1,0 +1,244 @@
+.numberOfPoints {
+  text-align: center;
+  margin: 60px 0px;
+  .numberOfPointsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1c1c1c;
+  }
+  .numberOfPointsBlueHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 0px;
+    color: #265a94;
+  }
+  .numberOfPointsDarkBtn {
+    padding: 16px 26px;
+    max-width: 299px;
+    max-height: 51px;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    border-radius: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #e4e4e4;
+    display: inline-block;
+  }
+  .numberOfPointsLightBtn {
+    padding: 16px 26px;
+    max-width: 299px;
+    max-height: 51px;
+    width: 100%;
+    height: 100%;
+    background: #fdfcfc;
+    border: 1px solid #1c1c1c;
+    border-radius: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c1c1c;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .numberOfPointsDarkBtn:hover,
+  .numberOfPointsLightBtn:hover {
+    opacity: 0.8;
+  }
+  .numberOfPointsBtns {
+    margin-top: 48px;
+  }
+}
+.btnUsePoints {
+  padding: 16px 26px;
+  max-width: 299px;
+  max-height: 51px;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1c;
+  border-radius: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 10px;
+  border: 0px;
+  color: #e4e4e4;
+}
+
+.exchangePointsLvl {
+  margin: 60px 0px;
+  margin-bottom: 100px;
+  text-align: center;
+  .exchangePointsLvlsHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin: 24px 0px;
+  }
+  .exchangePointsLvlsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #1c1c1c;
+  }
+  .rageExchangePointsLvl {
+    padding: 24px;
+    margin-bottom: 48px;
+    background: #f9f7f7;
+    .rageExchangePointsLvlTextBox {
+      align-items: center;
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        /* black */
+
+        color: #1c1c1c;
+      }
+    }
+    .scaleLvlRight {
+      text-align: right;
+    }
+    .scaleLvlCenter {
+      text-align: center;
+      color: #265a94 !important;
+    }
+    .establishLeft {
+      text-align: left !important;
+      color: #1c1c1c !important;
+    }
+    p {
+      text-align: left;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #1c1c1c;
+      mix-blend-mode: normal;
+    }
+    .scaleLvl {
+      display: flex;
+      p {
+        width: 33%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+
+        /* black */
+
+        color: #1c1c1c;
+      }
+    }
+    .establish {
+      display: flex;
+      p {
+        width: 50%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: right;
+        color: #808080;
+      }
+    }
+    input {
+      width: 100%;
+      accent-color: #265a94;
+    }
+  }
+  .exchangePointsLvlBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 50px;
+    color: #1c1c1c;
+  }
+  .exchangePointsLvlsBox {
+    min-height: 484px;
+    padding: 38px 42px;
+    gap: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(28, 28, 28, 0.25);
+    border-radius: 4px;
+  }
+
+  ul {
+    border-top: 1px solid #d9d9d9;
+    max-width: 325px;
+    margin: 0 auto;
+    padding: 24px 0px;
+    li {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 120%;
+      color: #1c1c1c;
+      margin: 8px 0px;
+      display: flex;
+      text-align: left;
+    }
+    li:before {
+      display: block;
+      flex-shrink: 0;
+      width: 20px;
+      height: 15px;
+      margin-right: 10px;
+      background: url(../imgs/checked.svg) no-repeat left center;
+      background-size: contain;
+      content: "";
+    }
+    li::marker {
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .numberOfPointsDarkBtn {
+    margin-bottom: 10px;
+  }
+  .exchangePointsLvl .rageExchangePointsLvl .rageExchangePointsLvlTextBox span {
+    font-size: 15px;
+  }
+  .exchangePointsLvl .rageExchangePointsLvl p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .establish {
+    display: unset !important;
+  }
+  .exchangePointsLvl .rageExchangePointsLvl .establish p {
+    width: 100%;
+    text-align: center !important;
+  }
+}

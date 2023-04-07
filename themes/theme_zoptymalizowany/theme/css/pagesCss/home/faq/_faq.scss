@@ -1,0 +1,121 @@
+.faqaccordion {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #e4e0ee;
+  margin-bottom: 10px;
+  .faqNumber {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1c1c1c;
+    background: #d9d9d9;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    margin-right: 14px;
+  }
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 22px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    color: black;
+    font-weight: bold;
+    background-color: unset;
+  }
+  .accordion .plus,
+  .accordion .minus {
+    float: right;
+
+    font-weight: 100;
+  }
+  .active .plus {
+    display: none;
+  }
+  .accordion .minus {
+    display: none;
+  }
+  .active .minus {
+    display: unset;
+  }
+}
+
+.faqHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1c1c1c;
+  margin-bottom: 17px;
+}
+.page-template-faq {
+  .woocommerce-breadcrumb {
+    background: #265a94;
+  }
+  .breadcrumb {
+    background: #265a94;
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+}
+.faqWhiteHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+.faqSearchBox {
+  outline: unset !important;
+  max-width: 837px;
+  height: 51px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: flex;
+  .search-button {
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+    border: 0px;
+    background-color: unset !important;
+    outline: unset !important;
+    color: #808080;
+  }
+  .faqinput {
+    width: 100%;
+    border: 0px;
+    outline: unset !important ;
+    padding: 8px 16px;
+  }
+}
+.faq {
+  margin: 44px 0px;
+  .faqBigHeading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+    margin-top: 44px !important;
+  }
+}

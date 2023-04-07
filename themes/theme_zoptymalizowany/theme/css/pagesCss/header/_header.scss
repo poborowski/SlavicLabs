@@ -1,0 +1,256 @@
+.top-header {
+  background: white;
+  text-align: center;
+  p {
+    margin: 0px;
+    font-family: "Alegreya Sans SC";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    padding: 9px 0px;
+  }
+}
+#wrapper-navbar {
+  background: #1c1c1c;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  // position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99999999;
+  .navbar {
+    padding: 0px;
+  }
+  #main-menu-left {
+    li {
+      padding: 15px 0px;
+    }
+    li:hover {
+      background: #3a3a3a;
+    }
+  }
+  a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #e4e4e4;
+  }
+  .navbar-toggler {
+    border: 0px;
+    .togglerIcon {
+      color: white;
+    }
+  }
+
+  .headerright {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .menurightbox {
+      max-width: 540px;
+      width: 100%;
+      margin-left: auto !important;
+    }
+    a {
+      text-decoration: none;
+      text-align: left;
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    a:hover {
+      opacity: 0.8;
+    }
+    div {
+      width: 30%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        background: #3c3c3c;
+        padding: 10px;
+        border-radius: 50%;
+      }
+    }
+
+    .headeracount {
+      max-width: 130px;
+      width: 100%;
+      margin-right: 20px;
+    }
+    .cartHeader {
+      max-width: 100px;
+      width: 100%;
+      margin-right: 20px;
+    }
+    .programHeader {
+      max-width: 201px;
+      width: 100%;
+      margin-right: 10px;
+    }
+    .langHeader {
+      max-width: 40px;
+      width: 100%;
+      color: white;
+      margin-right: 10px;
+      select {
+        background-color: unset;
+        color: white;
+        border: 0px;
+        option {
+          background-color: #1c1c1c;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  #navbarNavDropdown {
+    li {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+  #wrapper-navbar {
+    .headerright {
+      a {
+        font-size: 12px;
+      }
+      div {
+        font-size: 12px;
+        img {
+          padding: 5px;
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1050px) {
+  #navbarNavDropdown {
+    li {
+      a {
+        font-size: 14px;
+        padding: 5px;
+      }
+    }
+  }
+  #wrapper-navbar {
+    .headerright {
+      a {
+        font-size: 10px;
+      }
+      div {
+        font-size: 10px;
+        img {
+          padding: 5px;
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  #navbarNavDropdown {
+    li {
+      a {
+        font-size: 12px;
+        padding: 5px;
+      }
+    }
+  }
+  #wrapper-navbar {
+    .headerright {
+      .headeracount {
+        margin-right: 5px;
+      }
+      .cartHeader {
+        margin-right: 5px;
+      }
+      .programHeader {
+        margin-right: 0px;
+      }
+      a {
+        font-size: 10px;
+      }
+      div {
+        font-size: 10px;
+        img {
+          padding: 5px;
+          width: 25px;
+        }
+      }
+    }
+  }
+  .navbar-brand {
+    margin: 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .headerright {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  #menu-item-158 {
+    display: none;
+  }
+  #menu-item-159 {
+    display: none;
+  }
+  #menu-item-160 {
+    display: none;
+  }
+  #navbarNavDropdown {
+    #main-menu-left {
+      li {
+        a {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #navbarNavDropdown li a {
+    padding: 0px 10px;
+  }
+  .mobileacount {
+    background-image: url(../imgs/avatarheader.svg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: contain;
+  }
+  .mobileacart {
+    background-image: url(../imgs/cart.svg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: contain;
+  }
+  .mobileprogram {
+    background-image: url(../imgs/program.png);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: contain;
+  }
+  #menu-item-158 a,
+  #menu-item-159 a,
+  #menu-item-160 a {
+    display: flex;
+    align-items: center;
+  }
+}
+.navbar-toggler:focus {
+  box-shadow: unset !important;
+}

@@ -1,0 +1,51 @@
+.newsletter {
+  padding-bottom: 100px;
+  img {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .inputsubmit {
+    width: 19%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: #1c1c1c;
+    border-radius: 2px;
+    color: #e4e4e4;
+    padding: 16px 26px;
+  }
+  .inputtext {
+    width: 80%;
+    height: 54px;
+    border: unset;
+    border-bottom: 1px solid #000000;
+  }
+  .inputsubmit:hover {
+    opacity: 0.8;
+  }
+  .newslettertext {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1c1c1c;
+  }
+}
+
+@media (max-width: 768px) {
+  .newsletter {
+    text-align: center;
+    .inputtext {
+      width: 70%;
+    }
+    .inputsubmit {
+      width: 28%;
+      padding: 16px 18px;
+    }
+  }
+}

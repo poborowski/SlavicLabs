@@ -1,0 +1,14 @@
+#wrapper-navbar {
+  background: #1c1c1c;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+}
+#wrapper-navbar a {
+  color: white;
+}
+#wrapper-navbar .top-header {
+  background: white;
+  text-align: center;
+}
+#wrapper-navbar .top-header p {
+  margin: 0px;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,49 @@
+.footer {
+  background-color: $black;
+  .wrapp-footer-menu {
+    ul {
+      list-style: none;
+      padding: 0;
+      a {
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0em;
+        font-style: normal;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: 0.3s;
+      }
+    }
+  }
+  .social-media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    a {
+      padding: 0;
+      background: rgba(255, 255, 255, 0.85);
+      transition: 0.5s;
+      border-radius: 100%;
+      width: 22px;
+      height: 22px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        margin-left: 2px;
+        margin-bottom: 2px;
+        text-align: center;
+        color: $black;
+      }
+    }
+    &:hover {
+      a {
+        background-color: #fff;
+      }
+    }
+  }
+}

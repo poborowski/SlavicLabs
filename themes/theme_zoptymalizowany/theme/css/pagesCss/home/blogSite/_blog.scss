@@ -1,0 +1,260 @@
+.blogWrap {
+  background-color: white;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1320px !important;
+  margin: 0 auto;
+  .post {
+    width: 33.3%;
+    padding: 10px;
+    img {
+      width: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      max-height: 280px;
+    }
+  }
+  .entry-date {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1c1c1c;
+    margin-top: 10px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .navigation {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    .nav-links {
+      text-align: center;
+    }
+    a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+
+      /* black */
+      text-decoration: none;
+      color: #1c1c1c;
+    }
+    .current {
+      border-bottom: 1px solid #1c1c1c;
+    }
+  }
+  .entry-title {
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+
+      color: #1c1c1c;
+    }
+  }
+  .entry-content {
+    p {
+      color: black;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #1c1c1c;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .blogWrap {
+    .post {
+      width: 100%;
+      .entry-title {
+        padding: 20px;
+        a {
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.single-post {
+  .breadcrumb {
+    background-color: #265a94;
+    background-position: center;
+  }
+  .singular-post {
+    .entry-header {
+      display: none;
+    }
+  }
+  .dateAndAuthorPost {
+    margin: 0 auto;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 120%;
+      /* or 14px */
+
+      /* dark grey */
+
+      color: #808080;
+    }
+    .authorDate {
+      text-align: right;
+      img {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background: #3c3c3c;
+        padding: 2px;
+        border-radius: 50%;
+        margin-right: 12px;
+        object-fit: contain;
+      }
+    }
+  }
+  .wrapper-related-posts {
+    .desc {
+      display: none;
+    }
+    .relatedAuthor {
+      padding: 0px 1rem !important;
+    }
+    img {
+      min-height: 250px;
+      object-fit: cover !important;
+    }
+    .date {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: #1c1c1c;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      margin: 0px;
+      i {
+        display: none;
+      }
+    }
+    .heading {
+      margin-bottom: 0px;
+    }
+  }
+  #single-wrapper {
+    margin-top: 50px;
+  }
+}
+
+.relatedScroll::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+.relatedScroll::-webkit-scrollbar-thumb:horizontal {
+  background: #000;
+  border-radius: 10px;
+}
+.imgSinglePost {
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #f9f7f7;
+    opacity: 0.8;
+  }
+  img {
+    top: 40px !important;
+    position: relative;
+  }
+  .entry-header {
+    margin-top: 40px;
+  }
+}
+.blogWrapSection {
+  max-width: 1320px !important;
+  margin: 0 auto;
+  .sectionBox {
+    padding: 29px 20px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0px 10px;
+  }
+  button {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: unset;
+    border: unset;
+    color: #1c1c1c;
+  }
+  .container {
+    max-width: 500px !important;
+    margin: 0 auto;
+  }
+}
+
+.singlePostBredcrubs {
+  background-image: url(../imgs/singlePostBredcrumbs.jpg) !important;
+  background-size: cover;
+  background-position: center !important;
+}
+.singular-post {
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1c1c1c;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+
+    color: #1c1c1c;
+  }
+}
+@media (max-width: 768px) {
+  .singlePostBredcrubs {
+    img {
+      top: unset !important;
+      left: unset !important;
+      width: 100% !important;
+    }
+  }
+  .dateAndAuthorPost {
+    p {
+      text-align: center !important;
+    }
+  }
+  .blogWrap .entry-date {
+    text-align: center;
+  }
+}

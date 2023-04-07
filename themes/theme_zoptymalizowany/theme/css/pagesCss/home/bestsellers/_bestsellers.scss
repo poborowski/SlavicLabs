@@ -1,0 +1,107 @@
+.bestsellers {
+  padding: 100px 0px;
+  img {
+    object-fit: contain;
+  }
+  .bigtext {
+    margin-bottom: 50px;
+  }
+  a {
+    text-decoration: none;
+    .namebestseller {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      color: #1c1c1c;
+      margin: 0px;
+      margin-bottom: 18px;
+      margin-top: 18px;
+    }
+    .pricebestseller {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #1c1c1c;
+      margin: 0px;
+    }
+    .descriptionbestseller {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #808080;
+    }
+  }
+  .button {
+    max-width: 163px;
+    padding: 16px 26px;
+    margin: 0 auto;
+    margin-top: 26px;
+    display: block;
+  }
+  .button:hover {
+    color: white;
+    opacity: 0.8;
+  }
+  del {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    color: #808080;
+  }
+  img {
+    max-width: 150px;
+    object-fit: contain;
+    width: 100%;
+    max-height: 270px;
+    height: 100%;
+  }
+
+  .boxbestselersproduct {
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  .product {
+    position: relative;
+    display: block;
+    width: 390px;
+    max-width: 390px;
+    height: 100%;
+  }
+  .onsale {
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 0.857em;
+    z-index: 9;
+    background: #ff3a0d !important;
+    left: 65px !important;
+    top: 206px !important;
+    max-width: 69px;
+    max-height: 69px;
+    padding-top: 16px !important;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bestsellers {
+    padding: 50px 0px;
+    p {
+      text-align: center;
+    }
+    .product {
+      margin-bottom: 30px;
+      max-width: 275px;
+    }
+    .product::after {
+      bottom: 140px;
+      left: 0px;
+    }
+  }
+}

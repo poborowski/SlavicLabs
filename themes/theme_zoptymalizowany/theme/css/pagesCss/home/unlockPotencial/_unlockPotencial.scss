@@ -1,0 +1,149 @@
+.unlockPotencial {
+  background: #035495;
+  min-height: 740px;
+  overflow: hidden;
+  .row {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    height: 740px !important;
+  }
+  .button {
+    text-decoration: none;
+    padding: 16px 96px;
+    margin-top: 43px;
+    display: block;
+    max-width: 265px;
+  }
+  .smalltext {
+    margin-top: 27px;
+  }
+  .button:hover {
+    opacity: 0.8;
+    color: white;
+  }
+  p {
+    margin: 0px;
+    color: white;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .unlockimage {
+    position: relative;
+
+    height: 100%;
+  }
+  .unlockimage::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    max-width: 140px;
+    max-height: 140px;
+    z-index: 9999;
+    background-size: contain;
+    top: 150px;
+    right: 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("../imgs/save.png");
+  }
+  .sliderunlock {
+    margin-bottom: 0px !important;
+  }
+  .slick-dots {
+    bottom: 20px !important;
+  }
+  .unlockbox {
+    height: 400px !important;
+  }
+  img {
+    object-fit: contain;
+    bottom: 0;
+    margin-bottom: -100px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 768px) {
+  .unlockPotencial {
+    p {
+      text-align: center;
+    }
+    .button {
+      margin: 20px auto;
+    }
+    .slick-dots {
+      display: none;
+    }
+    .unlockimage::after {
+      max-width: 70px;
+      max-height: 70px;
+      top: 50px;
+      right: 66px;
+    }
+    div {
+      height: unset !important;
+    }
+    img {
+      object-fit: cover;
+      bottom: 0;
+      margin-bottom: unset;
+      position: unset;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .unlockPotencial {
+    .unlockimage::after {
+      max-width: 100px;
+      max-height: 100px;
+      top: 200px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .unlockPotencial {
+    .unlockimage::after {
+      max-width: 100px;
+      max-height: 100px;
+      top: 250px;
+      right: 80px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .unlockPotencial {
+    .unlockimage::after {
+      max-width: 100px;
+      max-height: 100px;
+      top: 100px;
+      right: 150px;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .unlockPotencial {
+    .unlockimage::after {
+      max-width: 100px;
+      max-height: 100px;
+      top: 100px;
+      right: 100px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .unlockPotencial {
+    .unlockimage::after {
+      max-width: 80px;
+      max-height: 80px;
+      top: 50px;
+      right: 50px;
+    }
+  }
+}

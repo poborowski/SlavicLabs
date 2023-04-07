@@ -1,0 +1,106 @@
+.uplvl {
+  background-size: cover;
+  height: 870px;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  position: relative;
+  .uplvlorangebcg {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .scrolimage {
+    img {
+      width: 100%;
+      max-width: 1920px;
+      height: 100%;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  @media (max-width: 1200px) {
+    .scrolimage {
+      overflow-x: scroll;
+      img {
+        width: 1920px;
+        max-width: 1920px;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    max-width: 100% !important;
+  }
+  img {
+    object-fit: contain;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .boxlvl {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    .singlelvl {
+      max-width: 200px;
+    }
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+    .singlelvl:nth-child(1) {
+      margin-top: 340px;
+    }
+    .singlelvl:nth-child(2) {
+      margin-top: 250px;
+    }
+    .singlelvl:nth-child(3) {
+      margin-top: 200px;
+    }
+    .singlelvl:nth-child(4) {
+      margin-top: 150px;
+    }
+    .singlelvl:nth-child(5) {
+      margin-top: 100px;
+    }
+    .singlelvl:nth-child(6) {
+      margin-top: 50px;
+      margin-right: 50px;
+    }
+    .singlelvl:nth-child(7) {
+      margin-top: 0px;
+    }
+  }
+}
+.uplvl::before {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.22em;
+  content: "SLAVIC LABS – WIĘCEJ NIŻ NAUKA.";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .uplvl {
+    .singlelvl {
+      margin: 0 auto !important;
+    }
+    img {
+      max-width: 200px;
+    }
+  }
+  .uplvl::before {
+    display: none;
+  }
+}

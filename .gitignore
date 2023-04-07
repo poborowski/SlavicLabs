@@ -1,0 +1,5 @@
+# Project exclude paths
+/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/cart.js
+/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/contexts.js
+/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/hooks.js
+/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/shipping.js
